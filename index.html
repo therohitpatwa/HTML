@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Menu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rohit Restaurent</h1>
+        <nav>
+            <ul>
+                <a href="#menu">
+                    <li>
+                        menu
+                    </li>
+                </a>
+                <a href="order-form">
+                    <li>
+                        order-form
+                    </li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>
+                Menu
+            </h2>
+            <article>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.lEa60MoPEz7kNWZQBc_a3wHaEo?pid=Api&P=0&h=180"
+                    alt="burger image">
+                <h3>Burger</h3>
+                <p>A juicy burger can cost anywhere from ₹40–₹150 depending on whether it's veg / non-veg, basic vs
+                    premium. For example, an Alu Tikki Burger at Pizzapeddler costs about ₹49. </p>
+
+
+
+            </article>
+            <article>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.gDrQfNySM1o1FwACDiwbBAHaEK?pid=Api&P=0&h=180"
+                    alt="roll image">
+                <h3>VegRoll</h3>
+                <p>A veg roll is like a flavour bomb wrapped in paratha — crunchy edges, soft veggies, fiery chutneys,
+                    the works. Rs 20</p>
+            </article>
+            <article>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.RZwzsNvpn80sRrQzYP2oYgHaEo?pid=Api&P=0&h=180"
+                    alt="tikka image">
+                <h3>Tikka</h3>
+                <p>Tikka (like Chicken Tikka or Paneer Tikka) as a snack or side usually ranges from ₹150–₹250,
+                    depending on the place. In Lucknow’s Tikka House, classic chicken tikka is priced around ₹189.</p>
+            </article>
+        </section>
+        <section>
+            <h2>
+                Place Your Order
+            </h2>
+            <form>
+
+
+                <h3>Items</h3>
+
+
+                <label for="burger">Burger (qty)</label>
+                <input type="number" id="burger" name="burger" min="0" value="0">
+
+
+                <label for="pizza">Pizza (qty)</label>
+                <input type="number" id="pizza" name="pizza" min="0" value="0">
+
+
+                <label for="tikka">Paneer Tikka (qty)</label>
+                <input type="number" id="tikka" name="tikka" min="0" value="0">
+
+
+                <label for="vegroll">Veg Roll (qty)</label>
+                <input type="number" id="vegroll" name="vegroll" min="0" value="0">
+
+
+                <br>
+                <h3>Sides & Add‑ons</h3>
+
+
+                <label>Sides</label>
+                <input type="radio" id="side-none" name="side" value="none" checked>
+                <label for="side-none">No side</label>
+
+
+                <input type="radio" id="side-fries" name="side" value="fries">
+                <label for="side-fries">French Fries</label>
+
+
+                <input type="radio" id="side-salad" name="side" value="salad">
+                <label for="side-salad">Salad</label>
+
+
+                <label>Add‑ons</label>
+                <input type="checkbox" id="cheese" name="addons" value="cheese">
+                <label for="cheese">Extra Cheese</label>
+
+
+                <input type="checkbox" id="chutney" name="addons" value="chutney">
+                <label for="chutney">Extra Chutney</label>
+
+
+
+                <br>
+                <legend>Special Requests</legend>
+                <label for="requests">Any special instructions</label>
+                <textarea id="requests" name="requests" placeholder="E.g. less oil, no onion"></textarea>
+
+                <br>
+                <input type="submit" value="Go To Checkout">
+            </form>
+        </section>
+    </main>
+    <footer>
+        Made by love therohitpatwa
+    </footer>
+</body>
+
+</html>
